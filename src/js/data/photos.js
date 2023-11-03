@@ -2,7 +2,7 @@
 
 const images = [
     {
-      url: "./img/photo-1-1.jpg",
+      url: "/src/img/photo-1-1.jpg",
       alt: "photo-1-1",
     },
     {
