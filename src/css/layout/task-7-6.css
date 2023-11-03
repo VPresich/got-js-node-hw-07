@@ -4,13 +4,13 @@
     flex-direction: column;
     row-gap: 16px;
     padding: 24px;
-    width: 534px;
+    /* width: 534px; */
     background-color: var(--form-bgr-color);
   }
   
-  #controls {
-    width: 100%;
+  #controls {    
     display: flex;
+    justify-content: center;
     align-items: flex-start;
     column-gap: 16px;
     padding: 32px;
