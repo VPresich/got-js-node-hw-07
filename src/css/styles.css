@@ -4,21 +4,12 @@
 @import url('./base/common.css');
 @import url('./base/container.css');
 @import url('./layout/header.css');
-@import url('./layout/module-01.css');
-@import url('./layout/module-02.css');
+@import url("./layout/home.css");
 
-/* :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-} */
+@import url("./layout/task-7-1.css");
+@import url("./layout/task-7-2-1.css");
+@import url("./layout/task-7-2.css");
+@import url("./layout/task-7-3.css");
+@import url("./layout/task-7-4.css");
+@import url("./layout/task-7-5.css");
+@import url("./layout/task-7-6.css");
