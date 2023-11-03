@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/got-js-node-hw-07/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VA home work JS 7</title>
-
+    <title>Module 7 task 4</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,9 +16,11 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/got-js-node-hw-07/assets/styles-ff76c65f.js"></script>
+    <script type="module" crossorigin src="/got-js-node-hw-07/assets/task-7-4-7d5f5bdc.js"></script>
+    <link rel="modulepreload" crossorigin href="/got-js-node-hw-07/assets/styles-ff76c65f.js">
     <link rel="stylesheet" href="/got-js-node-hw-07/assets/styles-3dd65f09.css">
   </head>
+  
   <body>
     <header class="header-page">
   <div class="container">
@@ -66,14 +67,26 @@
   </div>
 </header>
 
-    <section class="section section-layout">
-  <div class="container home-page-container">
-    <h1 class="title-home">Домашня робота JS - 7</h1>
-    <h2 class="name-stud">Валентина Александрова</h2>
+    <section class="section">
+  <div class="container">
+    <h2 class="section-title visually-hidden">Login</h2>
+
+    <form class="login-form">
+      <label>
+        Email
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Password
+        <input type="password" name="password" />
+      </label>
+      <button type="submit">Log in</button>
+    </form>
+    
   </div>
 </section>
-
-
+    
     
   </body>
+
 </html>

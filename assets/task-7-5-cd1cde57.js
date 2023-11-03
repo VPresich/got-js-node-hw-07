@@ -1,0 +1,1 @@
+import"./styles-ff76c65f.js";import{g as t}from"./random-hex-color-7e2c7eb3.js";const e=document.querySelector(".widget"),r=e.querySelector(".change-color"),n=e.querySelector(".color");r.addEventListener("click",c);function c(){const o=t();document.querySelector("body").style.backgroundColor=o,n.textContent=o}
