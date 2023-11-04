@@ -14,11 +14,11 @@
 // Import array of images
 import images from "./data/images.js";
 
-const galleryRef = document.querySelector(".gallery");
+const galleryRef = document.querySelector(".gallery2");
 
 // Function for create of markup (string) for 1 item (li) with img
 const imageMarkup = (image) => {
-  return `<li class="gallery-item"><img class="gallery-img" src="${image.url}" alt="${image.alt}" width="360" ></li>`;
+  return `<li class="gallery2-item"><img class="gallery2-img" src="${image.url}" alt="${image.alt}" width="360" ></li>`;
 };
 
 // Create of markup (string) for all items

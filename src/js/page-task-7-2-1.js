@@ -13,7 +13,7 @@
 
 import images from './data/photos.js';
 
-const galleryRef = document.querySelector('#gallery');
+const galleryRef = document.querySelector('.gallery');
 
 // Function for create of 1 item (li) with img
 const createItem = ({ url, alt, width = 360, height = 300 }) => {
