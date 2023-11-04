@@ -1,1 +1,0 @@
-import"./styles-1ecb74e5.js";const c=document.querySelector("#categories"),o=c.querySelectorAll(".item");console.log(`Number of categories: ${o.length}`);o.forEach(e=>{const t=e.querySelector("h2").textContent,l=e.querySelectorAll("li").length;console.log(`Category: ${t}`),console.log(`Elements: ${l}`)});
