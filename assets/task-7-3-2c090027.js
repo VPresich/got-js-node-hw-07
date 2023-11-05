@@ -1,0 +1,1 @@
+import"./styles-218a2ab6.js";const u=document.getElementById("name-input");u.addEventListener("input",o);function o(n){const t=n.currentTarget.value.trim(),e=document.getElementById("name-output");e.textContent=t!==""?t:"Anonymous"}
