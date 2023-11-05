@@ -34,10 +34,8 @@ function onImageClick(event) {
   };
 
   const closestLi = targetRef.closest(".gallery-item"); 
-
   const indexList = Array.from(event.currentTarget.children).indexOf(closestLi);
-  console.log(indexList);
-
+  
   const sliderRef = new Slider(indexList, 1, refs.slidesList.length);
   const sliderInterface = new SliderInterface(sliderRef,
   refs.slidesList,
