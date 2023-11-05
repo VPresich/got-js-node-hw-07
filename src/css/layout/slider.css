@@ -35,6 +35,7 @@
   #nextBtn:focus {
     color: var(--body-bgr-color);
     background-color: var(--primary-button-accent-bgr-color);
+    cursor: url("../../img/bxs_hand-down.svg"), auto;
   }
   
   #prevBtn:disabled,
