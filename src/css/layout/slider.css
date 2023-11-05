@@ -46,8 +46,7 @@
   
   #prevBtn:disabled:disabled:hover,
   #nextBtn:disabled:disabled:hover {
-    cursor: not-allowed;
-    /* background-color: var(--secondary-color); */
+    cursor: not-allowed;   
     background-color: transparent;    
     color: rgba(17, 17, 17, 0.3);
   }

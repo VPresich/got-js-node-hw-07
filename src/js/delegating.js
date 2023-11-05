@@ -32,11 +32,8 @@ function onImageClick(event) {
     alt: targetRef.alt,
     preview: targetRef.src,
   };
-  console.log("target", targetRef);
 
-  const closestLi = targetRef.closest(".gallery-item");
-  
-  console.log(closestLi);
+  const closestLi = targetRef.closest(".gallery-item"); 
 
   const indexList = Array.from(event.currentTarget.children).indexOf(closestLi);
   console.log(indexList);

@@ -77,7 +77,10 @@ class SliderInterface {
 
     updateContent() {   
         const slideNumber = this.#sliderRef.currentSlide;
+        const imgRef = this.elementsList[slideNumber].querySelector('.gallery-img');
         
+        this.sliderContent.src = imgRef.dataset.source;        
+        this.sliderContent.alt = imgRef.alt;
     }
   
     updateButtons() {   
